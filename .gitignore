@@ -1,0 +1,35 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Jupyter notebooks and checkpoints
+*.ipynb
+.ipynb_checkpoints/
+
+# Milvus, MinIO, and etcd persisted data
+volumes/
+
+# Runtime files
+logs/
+pids/
+*.log
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and operating-system files
+.DS_Store
+.vscode/
+.idea/
